@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
@@ -15,28 +16,33 @@ class Directory extends React.Component {
           title: 'hats',
           imageUrl: 'https://i.ibb.co/zQHD5Wq/caps.png',
           id: 1,
+          link: 'caps',
         },
         {
           title: 'hoodies',
           imageUrl: 'https://i.ibb.co/NxG6FjD/hoodies.jpg',
           id: 2,
+          link: '',
         },
         {
           title: 'sneakers',
           imageUrl: 'https://i.ibb.co/4FMs3Gz/sneakers.png',
           id: 3,
+          link: '',
         },
         {
           title: 'womens',
           imageUrl: 'https://i.ibb.co/KVfsQQF/women.jpg',
           size: 'large',
           id: 4,
+          link: '',
         },
         {
           title: 'mens',
           imageUrl: 'https://i.ibb.co/j4sdyfs/men.jpg',
           size: 'large',
           id: 5,
+          link: '',
         },
       ],
     };
@@ -46,10 +52,8 @@ class Directory extends React.Component {
     return (
       <div className="directory-menu">
         {
-          this.state.sections.map(({
-            title, imageUrl, id, size,
-          }) => (
-            <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+          this.state.sections.map(({ id, ...otherSectionProps }) => (
+            <MenuItem key={id} {...otherSectionProps} />
           ))
         }
       </div>
