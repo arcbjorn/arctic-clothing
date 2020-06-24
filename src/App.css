@@ -2,3 +2,8 @@ body {
   font-family: 'Montserrat';
   padding: 1% 5%;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
