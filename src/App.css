@@ -4,6 +4,7 @@ body {
 }
 
 a {
+  box-sizing: border-box;
   text-decoration: none;
   color: black;
 }
