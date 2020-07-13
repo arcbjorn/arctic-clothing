@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e58d79bef6e36ea8970841dbcbad0172",
+    "revision": "e8352168b1caefc9749a7972a2bc191b",
     "url": "/arctic-clothing/index.html"
   },
   {
-    "revision": "9e01d3b1be5fa891efc7",
+    "revision": "0d016778518c25295211",
     "url": "/arctic-clothing/static/css/main.a7d79abf.chunk.css"
   },
   {
-    "revision": "7631e52f48f9a41ac8c2",
-    "url": "/arctic-clothing/static/js/2.50ec5074.chunk.js"
+    "revision": "55f35ed7f67fff72f6a4",
+    "url": "/arctic-clothing/static/js/2.9385b5a2.chunk.js"
   },
   {
     "revision": "0135287500bd9d64203d07b4f33f971f",
-    "url": "/arctic-clothing/static/js/2.50ec5074.chunk.js.LICENSE.txt"
+    "url": "/arctic-clothing/static/js/2.9385b5a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e01d3b1be5fa891efc7",
-    "url": "/arctic-clothing/static/js/main.ddb44878.chunk.js"
+    "revision": "0d016778518c25295211",
+    "url": "/arctic-clothing/static/js/main.5ffd5154.chunk.js"
   },
   {
     "revision": "c9ff80e3f4c4d5dfc43d",
