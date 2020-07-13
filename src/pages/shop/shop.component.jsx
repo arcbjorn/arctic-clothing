@@ -29,11 +29,23 @@ class ShopPage extends React.Component {
     const { updateCollections } = this.props;
     const collectionRef = firestore.collection('collections');
 
-    this.unsubscribeFromSnapshot = collectionRef.onSnapshot(async (snapshot) => {
+    // fetch pattern - extremely nested
+    // fetch('https://firestore.googleapis.com/v1/projects/arctic-db-87a73/databases/(default)/documents/collections')
+    //   .then((responce) => responce.json());
+
+    // promise pattern
+    collectionRef.get().then((snapshot) => {
       const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
       updateCollections(collectionsMap);
       this.setState({ loading: false });
     });
+
+    // observer pattern - live stream
+    // this.unsubscribeFromSnapshot = collectionRef.onSnapshot(async (snapshot) => {
+    //   const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
+    //   updateCollections(collectionsMap);
+    //   this.setState({ loading: false });
+    // });
   }
 
   render() {
