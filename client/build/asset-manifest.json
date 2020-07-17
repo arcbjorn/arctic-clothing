@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/arctic-clothing/static/css/main.a7d79abf.chunk.css",
+    "main.js": "/arctic-clothing/static/js/main.5ffd5154.chunk.js",
+    "main.js.map": "/arctic-clothing/static/js/main.5ffd5154.chunk.js.map",
+    "runtime-main.js": "/arctic-clothing/static/js/runtime-main.239dab39.js",
+    "runtime-main.js.map": "/arctic-clothing/static/js/runtime-main.239dab39.js.map",
+    "static/js/2.9385b5a2.chunk.js": "/arctic-clothing/static/js/2.9385b5a2.chunk.js",
+    "static/js/2.9385b5a2.chunk.js.map": "/arctic-clothing/static/js/2.9385b5a2.chunk.js.map",
+    "index.html": "/arctic-clothing/index.html",
+    "precache-manifest.a9fef484f657c341572b9e6e39850726.js": "/arctic-clothing/precache-manifest.a9fef484f657c341572b9e6e39850726.js",
+    "service-worker.js": "/arctic-clothing/service-worker.js",
+    "static/css/main.a7d79abf.chunk.css.map": "/arctic-clothing/static/css/main.a7d79abf.chunk.css.map",
+    "static/js/2.9385b5a2.chunk.js.LICENSE.txt": "/arctic-clothing/static/js/2.9385b5a2.chunk.js.LICENSE.txt",
+    "static/media/logo.78bebd9b.svg": "/arctic-clothing/static/media/logo.78bebd9b.svg",
+    "static/media/shopping-bag.09e6f5e7.svg": "/arctic-clothing/static/media/shopping-bag.09e6f5e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.239dab39.js",
+    "static/js/2.9385b5a2.chunk.js",
+    "static/css/main.a7d79abf.chunk.css",
+    "static/js/main.5ffd5154.chunk.js"
+  ]
+}
